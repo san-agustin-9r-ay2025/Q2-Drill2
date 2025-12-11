@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drill 2</title>
+
+    <!-- START OF CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- START OF BOOTSTRAP 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="OBMC 60 Icon_Circle.png" alt="Logo" width="50" height="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html" target="_self">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html" target="_self">About Us</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="enroll.html" target="_self">Enroll</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="contact.html" target="_self">Contact Us</a></li>
+        </ul>
+        <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">Search</button>
+        </form>
+    </div>
+    </nav>
+    <div class="container-fluid mt-3">
+        <!-- SAMPLE CONTENT -->
+         <div class="container p-5 mt-3 bg-light text-dark">
+            <h3>Home Page</h3><hr>
+            <p>
+                At O.B. Montessori Center, we are dedicated to providing a nurturing
+                environment where academic excellence, creativity, and character
+                development flourish. Explore our innovative programs designed to
+                prepare students for success in a rapidly changing world.
+            </p>
+         </div>
+    </div>
+    <footer class="text-center py-2 bg-dark text-light mt-auto fixed-bottom">
+        &copy; 2025 Copyright
+    </footer>
+
+     <!-- MAIN SECTION -->
+      <div class="container bg-secondary p-3 mt-3 mb-3 rounded" id="responsive-form">
+        <h2 class="text-warning">Sign in here</h2>
+        <form>
+            <!-- ROW 1 -->
+            <div class="row align-items-center g-3">
+                <!-- EMAIL -->
+                <div class="col-md-auto col-12">
+                    <label class="form-label d-md-none" for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <!-- PASSWORD -->
+                <div class="col-md-auto col-12">
+                    <label class="form-label d-md-none" for="inputPassword">Password</label>
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+                <!-- CHECKBOX -->
+                <div class="col-md-auto col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="checkRemember">
+                    <label class="form-check-label" for="checkRemember">Remember me</label>
+                </div>
+                </div>
+                <!-- BUTTON -->
+                <div class="col-md-auto col-12">
+                    <button type="submit" class="btn btn-warning">Sign in</button>
+                </div>
+            </div>
+        </form>
+      </div>
+</body>
+</html>
